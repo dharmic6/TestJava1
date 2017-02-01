@@ -6,7 +6,10 @@ public class MissingNumber {
 
 	public static void main(String[] args) {
 		
-
+		int a = 20;
+		Integer a1 = 40; // new Integer(40)
+		
+		
 		System.out.println("Enter the numbers placed");
 		Scanner s = new Scanner(System.in);
 		
