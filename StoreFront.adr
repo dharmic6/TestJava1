@@ -1,0 +1,72 @@
+StoreFront.adr
+
+Item
+- id
+- name
+- manufacturer
+- buyingCost
+- sellingCost
+
+Organic:
+- expiryDate
+
+
+Employee
+- id
+- name
+- salaryPerDay
+
+
+CartCheckout
+- dateTime(String)
+- Items<ItemId,quantity> - Map
+- FinalPrice
+- txnId(unique 1,2,3...)
+
+
+
+Input: 
+
+Press 1 for Adding Employee
+Press 2 for Adding Item
+Press 3 for CartCheckout
+Press 0 to exit
+
+1
+- id   :   123
+- name : abc
+- salaryPerDay : 300
+
+
+2
+- id   : 12
+- name : Soda
+- manufacturer : Cola
+- buyingCost   : 1
+- sellingCost  : 2
+
+
+
+
+3  : static int : 1...
+CartCheckout
+
+- Items<ItemId,quantity>
+
+Press 0 at end of Items
+
+ItemId: 12
+Quanitity: 2
+
+
+ItemId: 13
+Quantity: 1
+
+
+ItemId:0
+
+- txnId     : 1235 
+- TotalCost : 5
+
+Items:
+Soda : 2
